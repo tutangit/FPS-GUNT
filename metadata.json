@@ -1,0 +1,5 @@
+{
+  "name": "Counter-Strike 1.6 Web Legacy",
+  "description": "A high-fidelity recreation of the classic Counter-Strike 1.6 experience, featuring air-strafing physics, deterministic spray patterns, and the iconic neon green HUD.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS 1.6 Web Legacy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @font-face {
+      font-family: 'Verdana';
+      src: local('Verdana');
+    }
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: #000;
+      color: #00ff00;
+      font-family: 'Verdana', sans-serif;
+      user-select: none;
+    }
+    canvas {
+      display: block;
+    }
+    /* Simple cursor hiding when in game */
+    .in-game {
+      cursor: none;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "three": "https://esm.sh/three@^0.182.0"
+  }
+}
+</script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
